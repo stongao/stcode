@@ -1,4 +1,4 @@
-import { features } from "../data/loksabha-map.json";
+import { features } from "../data/loksabha-map.json"
 //import legendItems from "../entities/LegendItems";
 
 /*
@@ -24,9 +24,9 @@ class LoadStatesTask {
 */
 
 class LoadStatesTask {
-    load = (setState) => {
-        setState(features)
-    };
+  load = (setState) => {
+    setState(features)
+  }
 }
 
-export default LoadStatesTask;
+export default LoadStatesTask
